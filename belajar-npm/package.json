@@ -12,7 +12,6 @@
     "poststart": "echo, 'ini adalah penutup dari sebua project'",
     "run": "node write.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "repository": {
     "url": "git+https://github.com/nandaikhwanul/Belajar-NPM.git",
@@ -28,8 +27,9 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "belajar-npm-library": "^1.0.0",
     "lodash": "3.6.x",
-    "belajar-npm-library": "^1.0.0"
+    "pembelajaran-npm-library-fortexs": "^1.1.0"
   },
   "devDependencies": {
     "moment": "^2.29.3"
