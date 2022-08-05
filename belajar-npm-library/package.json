@@ -1,6 +1,6 @@
 {
   "name": "pembelajaran-npm-library-fortexs",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "belajar-npm-init 05-08-2022",
   "type": "module",
   "main": "index.js",
@@ -8,5 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nanda ikhwanul",
-  "license": "ISC"
+  "license": "ISC",
+  "exports": {
+    ".": "./index,js",
+    "./angka": "./angka.js"
+  }
 }
