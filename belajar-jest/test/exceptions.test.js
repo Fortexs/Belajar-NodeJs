@@ -1,8 +1,13 @@
-import { CallMe, MyException } from "../src/exception";
+import { callMe, MyException } from "../src/exception.js";
 
 test("exceptions", () => {
 
-    expect(() => CallMe("nanda").toThrow());
-    expect(() => CallMe("nanda").toThrow(MyException));
-    expect(() => CallMe("nanda").toThrow("wooyoyoyo"));
+    expect(() => callMe("nanda")).toThrow();
+    expect(() => callMe("nanda")).toThrow(MyException);
+    expect(() => callMe("nanda")).toThrow("kenapa error ?");
 });
+
+test("exceptions not happens", () => {
+    
+    expect(callMe("Samsul")).toBe("ok");
+})

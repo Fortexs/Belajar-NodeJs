@@ -2,10 +2,10 @@ export class MyException extends Error {
 
 }
 
-export const CallMe = (name) => {
-    if(name === nanda){
+export const callMe = (name) => {
+    if (name === "nanda"){
         throw new MyException("kenapa error ?");
-    }else {
+    } else {
         return "ok"
     }
 }
