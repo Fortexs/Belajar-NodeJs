@@ -1,42 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1664720220374" clover="3.2.0">
-  <project timestamp="1664720220375" name="All files">
-    <metrics statements="18" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="6" elements="29" coveredelements="27" complexity="0" loc="18" ncloc="18" packages="2" files="4" classes="4"/>
-    <package name="src">
-      <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
-      <file name="asyncronus.js" path="C:\Users\WeAre\Documents\Belajar-NodeJs\belajar-jest\src\asyncronus.js">
-        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-      </file>
-      <file name="exception.js" path="C:\Users\WeAre\Documents\Belajar-NodeJs\belajar-jest\src\exception.js">
-        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-      </file>
-      <file name="sum.js" path="C:\Users\WeAre\Documents\Belajar-NodeJs\belajar-jest\src\sum.js">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="5" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="5" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="vendor">
-      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="function.js" path="C:\Users\WeAre\Documents\Belajar-NodeJs\belajar-jest\vendor\function.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="2" count="0" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1664804369939" clover="3.2.0">
+  <project timestamp="1664804369940" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6" elements="27" coveredelements="27" complexity="0" loc="17" ncloc="17" packages="1" files="3" classes="3"/>
+    <file name="asyncronus.js" path="C:\Users\WeAre\Documents\Belajar-NodeJs\belajar-jest\src\asyncronus.js">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+    </file>
+    <file name="exception.js" path="C:\Users\WeAre\Documents\Belajar-NodeJs\belajar-jest\src\exception.js">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+    </file>
+    <file name="sum.js" path="C:\Users\WeAre\Documents\Belajar-NodeJs\belajar-jest\src\sum.js">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="2" count="5" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="8" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+    </file>
   </project>
 </coverage>
