@@ -12,3 +12,25 @@ export const sumAll = (numbers) => {
 
     return i;
 }
+
+export const calculate = (numbers, callback) => {
+    let i = 0;
+
+    for (let number of numbers) {
+        i += number;
+
+    }
+
+    callback(i,"Nanda Ikhwanul Nadlirin");
+}
+
+export const calculateReturn = (numbers, callback) => {
+    let i = 0;
+
+    for (let number of numbers) {
+        i += number;
+
+    }
+
+    return callback(i);
+}
