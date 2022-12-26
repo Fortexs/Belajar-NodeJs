@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1668429350436" clover="3.2.0">
-  <project timestamp="1668429350437" name="All files">
-    <metrics statements="12" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1" elements="15" coveredelements="8" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
-    <file name="sum.js" path="C:\Users\WeAre\Documents\Belajar-NodeJs\belajar-jest\src\sum.js">
-      <metrics statements="12" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="0" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="0" type="stmt"/>
-      <line num="8" count="0" type="stmt"/>
-      <line num="9" count="0" type="stmt"/>
-      <line num="13" count="0" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="17" count="2" type="stmt"/>
-      <line num="19" count="2" type="stmt"/>
-      <line num="20" count="8" type="stmt"/>
-      <line num="24" count="2" type="stmt"/>
-    </file>
+<coverage generated="1672066337432" clover="3.2.0">
+  <project timestamp="1672066337433" name="All files">
+    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
   </project>
 </coverage>
