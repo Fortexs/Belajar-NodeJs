@@ -21,7 +21,7 @@ export const calculate = (numbers, callback) => {
 
     }
 
-    callback(i,"Nanda Ikhwanul Nadlirin");
+    callback(i);
 }
 
 export const calculateReturn = (numbers, callback) => {
